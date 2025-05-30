@@ -46,6 +46,5 @@ df[['Age', 'Fare', 'FamilySize']] = scaler.fit_transform(df[['Age', 'Fare', 'Fam
 
 # ========== OUTPUT ==========
 
-# Save the cleaned and preprocessed data to a new file
 df.to_csv("titanic_preprocessed.csv", index=False)
 print("✅ Preprocessing complete. File saved as 'titanic_preprocessed.csv'.")
